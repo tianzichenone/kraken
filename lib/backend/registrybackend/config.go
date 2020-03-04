@@ -14,9 +14,18 @@
 package registrybackend
 
 import "github.com/uber/kraken/lib/backend/registrybackend/security"
+import "time"
 
 // Config defines the registry address and security options.
 type Config struct {
 	Address  string          `yaml:"address"`
 	Security security.Config `yaml:"security"`
+	Timeout  time.Duration   `yaml:"timeout"`
+}
+
+func (c Config) applyDefaults() Config {
+	if c.Timeout == 0 {
+		c.Timeout = 60 * time.Second
+	}
+	return c
 }
