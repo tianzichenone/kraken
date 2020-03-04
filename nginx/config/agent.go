@@ -26,7 +26,6 @@ server {
   {{range .allowed_cidrs}}
     allow {{.}};
   {{end}}
-  deny all;
 
   {{.client_verification}}
 

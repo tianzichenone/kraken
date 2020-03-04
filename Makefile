@@ -35,7 +35,7 @@ LINUX_BINS = \
 	tools/bin/testfs/testfs \
 	tracker/tracker
 
-REGISTRY ?= ccs.ccs.tencentyun.com/tzc-test
+REGISTRY ?= ccr.ccs.tencentyun.com/tzc-dev
 
 agent/agent:: $(wildcard agent/*.go)
 	$(CROSS_COMPILER)

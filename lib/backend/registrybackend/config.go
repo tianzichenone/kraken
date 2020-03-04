@@ -25,7 +25,7 @@ type Config struct {
 
 func (c Config) applyDefaults() Config {
 	if c.Timeout == 0 {
-		c.Timeout = 60 * time.Second
+		c.Timeout = 60 * time.Minute
 	}
 	return c
 }
