@@ -8,7 +8,7 @@ require (
 	github.com/alicebob/gopher-json v0.0.0-20180125190556-5a6b3ba71ee6 // indirect
 	github.com/alicebob/miniredis v2.5.0+incompatible
 	github.com/andres-erbsen/clock v0.0.0-20160526145045-9e14626cd129
-	github.com/aws/aws-sdk-go v1.21.4
+	github.com/aws/aws-sdk-go v1.33.0
 	github.com/awslabs/amazon-ecr-credential-helper v0.3.1
 	github.com/bugsnag/bugsnag-go v1.5.0 // indirect
 	github.com/bugsnag/panicwrap v0.0.0-20180510051541-1d162ee1264c // indirect
@@ -44,7 +44,7 @@ require (
 	github.com/satori/go.uuid v1.2.0
 	github.com/spaolacci/murmur3 v0.0.0-20170819071325-9f5d223c6079
 	github.com/spf13/cobra v0.0.4 // indirect
-	github.com/stretchr/testify v1.3.0
+	github.com/stretchr/testify v1.5.1
 	github.com/uber-go/tally v3.3.11+incompatible
 	github.com/willf/bitset v0.0.0-20190228212526-18bd95f470f9
 	github.com/yuin/gopher-lua v0.0.0-20191128022950-c6266f4fe8d7 // indirect
@@ -54,7 +54,7 @@ require (
 	go.uber.org/atomic v1.4.0
 	go.uber.org/multierr v1.1.0 // indirect
 	go.uber.org/zap v0.0.0-20190327195448-badef736563f
-	golang.org/x/net v0.0.0-20190620200207-3b0461eec859
+	golang.org/x/net v0.0.0-20200202094626-16171245cfb2
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
 	google.golang.org/api v0.7.0
